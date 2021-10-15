@@ -30,17 +30,17 @@ i + span {
     font-size: x-small;
 }
 
-#highlightsContainer h3, #lastOfTopContainer h3 {
+#highlightsContainer h3, #lastOfTopContainer h3, #firstOfMiddleContainer h3, #lastOfMiddleContainer h3 {
     color: #5e5e5e;
     display: inline;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
 }
-#highlightsContainer i, #lastOfTopContainer i {
+#highlightsContainer i, #lastOfTopContainer i, #firstOfMiddleContainer i, #lastOfMiddleContainer i {
     color: #5e5e5e;
 }
 
-#highlightsContainer div, #lastOfTopContainer div {
+#highlightsContainer div, #lastOfTopContainer div, #firstOfMiddleContainer div, #lastOfMiddleContainer div {
     border-bottom: 1px solid #c5c3c3;
     padding-bottom: 15px;
 }
@@ -84,7 +84,35 @@ i + span {
     font-size: 0.7rem;
 }
 
-.btn-primary + i {
+.btn-secondary {
+    background-color: #c5c3c3;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 22px;
+    font-size: 0.7rem;
+    color: #5e5e5e;
+}
+
+.btn-warning {
+    background-color: #ECA126;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 22px;
+    font-size: 0.7rem;
+    color: white;
+}
+
+.btn-light {
+    background-color: transparent;
+    color: #5e5e5e;
+    border-color: #c5c3c3;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    padding: 5px 50px;
+    text-align: center;
+}
+
+.btn-primary + i, .btn-secondary + i, .btn-warning + i, .tablish-rows {
     color: #5e5e5e;
     font-size: 0.7rem;
 }
@@ -176,4 +204,55 @@ img.card-image-top {
 .purple-bold {
     color: purple;
     font-weight: 600;
+}
+
+i.bg-dark {
+    border-radius: 50%;
+    padding: 3px 5px;
+    font-size: 0.9rem;
+}
+
+#lastOfMiddleContainer a.active {
+color: purple;
+padding-bottom: 16px;
+border-bottom: 3px solid purple;
+}
+
+#lastOfMiddleContainer a {
+color: #5e5e5e;
+}
+
+.mosaic-img {
+    min-height: 171px;
+    object-fit: cover;
+    margin: 2px 2px;
+}
+
+.tablish-rows {
+    border-bottom: 1px solid #c5c3c3;
+}
+
+.tablish-discount-badge {
+    position: absolute;
+    background-color: purple;
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+    left: -20%;
+    bottom: 18%;
+    padding: 3px 3px;
+}
+
+.tablish-old-price {
+    position: absolute;
+    text-decoration: line-through;
+    font-size: 0.6rem;
+    color: #aaaaaa;
+    top: 40%;
+    left: 18%;
+}
+
+.caret-span {
+    position: absolute;
+    right: 10%;
 }
