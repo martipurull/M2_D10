@@ -30,17 +30,17 @@ i + span {
     font-size: x-small;
 }
 
-#highlightsContainer h3, #lastOfTopContainer h3, #firstOfMiddleContainer h3, #lastOfMiddleContainer h3 {
+#highlightsContainer h3, #lastOfTopContainer h3, #firstOfMiddleContainer h3, #lastOfMiddleContainer h3, #newsContainer h3 {
     color: #5e5e5e;
     display: inline;
     font-size: 16px;
     font-weight: 700;
 }
-#highlightsContainer i, #lastOfTopContainer i, #firstOfMiddleContainer i, #lastOfMiddleContainer i {
+#highlightsContainer i, #lastOfTopContainer i, #firstOfMiddleContainer i, #lastOfMiddleContainer i, #newsContainer i {
     color: #5e5e5e;
 }
 
-#highlightsContainer div, #lastOfTopContainer div, #firstOfMiddleContainer div, #lastOfMiddleContainer div {
+#highlightsContainer div, #lastOfTopContainer div, #firstOfMiddleContainer div, #lastOfMiddleContainer div, #newsContainer div {
     border-bottom: 1px solid #c5c3c3;
     padding-bottom: 15px;
 }
