@@ -9,7 +9,7 @@ body {
     font-family: var(--main-font);
 }
 
-#gogLogo {
+#gogLogo, #galaxyLogo{
     width: 40px;
     height: 40px;
 }
@@ -30,17 +30,17 @@ i + span {
     font-size: x-small;
 }
 
-#highlightsContainer h3 {
+#highlightsContainer h3, #lastOfTopContainer h3 {
     color: #5e5e5e;
     display: inline;
     font-size: 16px;
     font-weight: 600;
 }
-#highlightsContainer i {
+#highlightsContainer i, #lastOfTopContainer i {
     color: #5e5e5e;
 }
 
-#highlightsContainer div {
+#highlightsContainer div, #lastOfTopContainer div {
     border-bottom: 1px solid #c5c3c3;
     padding-bottom: 15px;
 }
@@ -120,4 +120,60 @@ i + span {
     position: absolute;
     top: 21%;
     left: 13%;
+}
+
+.card {
+    min-height: 100%;
+    box-shadow: 1px -1px 1px #c5c3c3;
+}
+
+img.card-image-top {
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+}
+
+.card-body i {
+    color: #5e5e5e;
+    font-size: 0.8rem;
+}
+
+ .old-card-price, .discount-percentage, .card-price {
+    position: absolute;
+}
+
+.card-price {
+    right: 10%;
+}
+
+.old-card-price {
+    bottom: 100%;
+    right: 10%;
+    font-size: 0.6rem;
+    text-decoration: line-through;
+    color: #c5c3c3;
+}
+
+.discount-percentage {
+    bottom: 0;
+    left: -20%;
+    background-color: purple;
+    border-radius: 2px;
+    color: white;
+    font-size: 1.1rem;
+    padding: 4px 11px;
+}
+
+#firstDivider {
+    border-top: 2px solid #c5c3c3;
+    border-bottom: 2px solid #c5c3c3;
+}
+
+#firstDivider .row > div {
+    border-right: 1px solid #c5c3c3;
+}
+
+.purple-bold {
+    color: purple;
+    font-weight: 600;
 }
