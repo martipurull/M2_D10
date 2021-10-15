@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+:root {
+    --main-font: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #D8D8D8;
+    font-family: var(--main-font);
+}
+
+#gogLogo {
+    width: 40px;
+    height: 40px;
+}
+
+#userAvatar {
+width: 30px;
+height: 30px;
+    border-radius: 50%;
+}
+
+.navbar li > i {
+    color: #D8D8D8;
+    font-size: 16px;
+}
+
+i + span {
+    color: #5e5e5e;
+    font-size: x-small;
+}
+
+#highlightsContainer h3 {
+    color: #5e5e5e;
+    display: inline;
+    font-size: 16px;
+    font-weight: 600;
+}
+#highlightsContainer i {
+    color: #5e5e5e;
+}
+
+#highlightsContainer div {
+    border-bottom: 1px solid #c5c3c3;
+    padding-bottom: 15px;
+}
