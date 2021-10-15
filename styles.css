@@ -44,3 +44,80 @@ i + span {
     border-bottom: 1px solid #c5c3c3;
     padding-bottom: 15px;
 }
+
+.carousel img {
+    max-height: 400px;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.carousel .carousel-indicators {
+    position: absolute;
+    bottom: -12%;
+}
+
+.carousel .carousel-indicators li {
+  background-color: #c5c3c3;
+}
+
+.carousel .carousel-indicators li.active {
+  background-color: purple;
+}
+
+.btn-success {
+    background: rgb(116,172,22);
+    background: linear-gradient(0deg, rgba(116,172,22,1) 0%, rgba(184,230,78,0.908000700280112) 100%);
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px -1px 1px #5e5e5e;
+    padding: 7px 30px;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.btn-primary {
+    background-color: rgb(37, 37, 182);
+    border: none;
+    border-radius: 2px;
+    padding: 5px 22px;
+    font-size: 0.7rem;
+}
+
+.btn-primary + i {
+    color: #5e5e5e;
+    font-size: 0.7rem;
+}
+
+#addToCartButtonGroup {
+    position: absolute;
+    right: 0;
+    left: 66%;
+    top: 81%;
+    font-weight: 700;
+}
+#addToCartButtonGroup span {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+#main-title-on-img {
+    position: absolute;
+    bottom: 8%;
+    left: 10%;
+    font-size: 1.5rem;
+}
+
+#soonButtonGroup {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+
+#cyberpunkLogo {
+    width: 280px;
+    position: absolute;
+    top: 21%;
+    left: 13%;
+}
